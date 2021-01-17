@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../background/11background.jpg);
+    transition: 0.6s ease
+}
+
+h1 {
+  color: black;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 50px;
+  font-weight:700;
+  margin-top:50px;  
+  text-align:center;
+  text-transform:uppercase;
+  letter-spacing:4px;
+  line-height:23px;
+}
+
+.table-box{
+    margin: 50px auto;
+}
+
+.table-row{
+    display: table;
+    width: 80%;
+    margin: 10px auto;
+    font-family: sans-serif;
+    background: transparent;
+    padding: 12px 0;
+    color: black;
+    font-size: 15px;
+    box-shadow: 0 1px 4px 0px rgba(0,0,50,0.3);
+}
+
+.table-head{
+    box-shadow: none;
+    color: chocolate;
+    font-weight: 600;
+}
+
+.table-head .table-cell{
+    border-right: none;
+}
+
+.table-cell{
+    display: table-cell;
+    width: 20%;
+    text-align: center;
+    padding: 4px 0;
+    border-right: 2px solid chocolate;
+    vertical-align: middle;
+}
+
+.first-cell{
+    padding-left: 10px;
+    vertical-align: middle;
+}
+
+.last-cell{
+    border-right: none;
+}
+
+a{
+    text-decoration: none;
+    color: #555;
+}
+
+@media only screen and (max-width: 600px){
+  .table-row {
+    font-size: 11px;
+  }
+}

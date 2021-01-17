@@ -1,0 +1,40 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Century Gothic;
+}
+
+header{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../background/9background.jpg);
+	height: 100vh;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.main{
+	max-width: 1200px;
+	margin: auto;
+}
+
+.title{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	transition: 0.6s ease
+}
+
+.title h1{
+	padding: 10px 20px;
+	color: #fff;
+	font-size: 30px;
+	text-decoration: none;
+}
+
+.title p{
+	padding: 10px 30px;
+	color: black;
+	font-size: 20px;
+	text-decoration: none;
+}
